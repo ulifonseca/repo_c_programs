@@ -21,5 +21,6 @@ int main(void)
         printf("[%d] : %d\n",i,a[i]);
     }
     
+    printf("Hello world");
     return 0;
 }
