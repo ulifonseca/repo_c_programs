@@ -3,6 +3,7 @@
 int main(void)
 {
     int b=0;
+    int c=1;
     int a[]={1,2,3};
     printf("Loops execution...\n\n");
     for (int i = 0; i < 3; i++)
@@ -21,5 +22,16 @@ int main(void)
         printf("[%d] : %d\n",i,a[i]);
     }
     
+    printf("Switch...\n");
+    switch (c)
+    {
+    case 1:
+        printf("Monday\n");
+        break;
+    
+    default:
+        printf("Error!");
+        break;
+    }
     return 0;
 }
