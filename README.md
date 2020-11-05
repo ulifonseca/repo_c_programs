@@ -2,3 +2,5 @@
 #It will include loops 
 
 The first loop will be for
+The second loop will be while
+Finally arrays
