@@ -3,7 +3,7 @@
 int main(void)
 {
     int b=0;
-    int c=1;
+    int c=2;
     int a[]={1,2,3};
     printf("Loops execution...\n\n");
     for (int i = 0; i < 3; i++)
@@ -27,6 +27,9 @@ int main(void)
     {
     case 1:
         printf("Monday\n");
+        break;
+    case 2:
+        printf("Tuesday\n");
         break;
     
     default:
