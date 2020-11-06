@@ -7,3 +7,4 @@ Finally arrays
 switch add
 
 another comment to switch
+this will be a new comment
